@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="testBitirme">
+    <file>Resources/help.ico</file>
+  </qresource>
+</RCC>
