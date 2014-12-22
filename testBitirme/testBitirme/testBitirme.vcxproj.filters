@@ -87,6 +87,9 @@
     <ClInclude Include="mil.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="jenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="testBitirme.rc" />

@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Resource object code
 **
-** Created: Sat 20. Dec 23:34:44 2014
+** Created: Mon 22. Dec 06:03:11 2014
 **      by: The Resource Compiler for Qt version 4.8.0
 **
 ** WARNING! All changes made in this file will be lost!
@@ -10,7 +10,7 @@
 #include <QtCore/qglobal.h>
 
 static const unsigned char qt_resource_data[] = {
-  // C:/Users/Anýl/Documents/Visual Studio 2010/Projects/testBitirme/testBitirme/Resources/help.ico
+  // C:/Users/Anýl/Documents/GitHub/bitirme/testBitirme/testBitirme/Resources/help.ico
   0x0,0x2,0x66,0xc3,
   0x0,
   0x0,0x1,0x0,0x1,0x0,0x0,0x0,0x0,0x0,0x1,0x0,0x8,0x0,0xad,0x66,0x2,

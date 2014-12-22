@@ -1,0 +1,42 @@
+﻿Build started 22.12.2014 06:03:09.
+     1>Project "C:\Users\Anıl\Documents\GitHub\bitirme\testBitirme\testBitirme\testBitirme.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\Anıl\Documents\GitHub\bitirme\testBitirme\Win32\Release\".
+       InitializeBuildStatus:
+         Creating "Release\CSE495_Wind_Turbine_Simulator.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Moc'ing CSE495_Wind_Turbine_Simulator.h...
+         Uic'ing testbitirme.ui...
+         Moc'ing qcustomplot.h...
+         Rcc'ing testbitirme.qrc...
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\4.8.0\include /I.\GeneratedFiles\Release /IC:\Qt\4.8.0\include\QtCore /IC:\Qt\4.8.0\include\QtGui /IC:\Qt\4.8.0\include\QtMultimedia /IC:\Qt\4.8.0\include\QtXml /IC:\Qt\4.8.0\include\QtSql /IC:\Qt\4.8.0\include\QtOpenGL /IC:\Qt\4.8.0\include\QtNetwork /IC:\Qt\4.8.0\include\QtScript /IC:\Qt\4.8.0\include\Qt3Support /IC:\Qt\4.8.0\include\ActiveQt /IC:\Qt\4.8.0\include\QtSvg /IC:\Qt\4.8.0\include\QtHelp /IC:\Qt\4.8.0\include\QtWebKit /IC:\Qt\4.8.0\include\QtXmlPatterns /IC:\Qt\4.8.0\include\QtTest /IC:\Qt\4.8.0\include\QtDeclarative /IC:\Qt\4.8.0\include\phonon /nologo /W1 /WX- /O2 /Oy- /D "UNICODE" /D "WIN32" /D "QT_LARGEFILE_SUPPORT" /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D "QT_CORE_LIB" /D "QT_GUI_LIB" /D "QT_MULTIMEDIA_LIB" /D "QT_XML_LIB" /D "QT_SQL_LIB" /D "QT_OPENGL_LIB" /D "QT_NETWORK_LIB" /D "QT_SCRIPT_LIB" /D "QT_QT3SUPPORT_LIB" /D QT3_SUPPORT /D QAXSERVER /D "QT_SVG_LIB" /D "QT_WEBKIT_LIB" /D "QT_XMLPATTERNS_LIB" /D "QT_DECLARATIVE_LIB" /D "QT_PHONON_LIB" /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_testbitirme.cpp
+         qrc_testbitirme.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\4.8.0\include /I.\GeneratedFiles\Release /IC:\Qt\4.8.0\include\QtCore /IC:\Qt\4.8.0\include\QtGui /IC:\Qt\4.8.0\include\QtMultimedia /IC:\Qt\4.8.0\include\QtXml /IC:\Qt\4.8.0\include\QtSql /IC:\Qt\4.8.0\include\QtOpenGL /IC:\Qt\4.8.0\include\QtNetwork /IC:\Qt\4.8.0\include\QtScript /IC:\Qt\4.8.0\include\Qt3Support /IC:\Qt\4.8.0\include\ActiveQt /IC:\Qt\4.8.0\include\QtSvg /IC:\Qt\4.8.0\include\QtHelp /IC:\Qt\4.8.0\include\QtWebKit /IC:\Qt\4.8.0\include\QtXmlPatterns /IC:\Qt\4.8.0\include\QtTest /IC:\Qt\4.8.0\include\QtDeclarative /IC:\Qt\4.8.0\include\phonon /nologo /W1 /WX- /O2 /Oy- /D "UNICODE" /D "WIN32" /D "QT_LARGEFILE_SUPPORT" /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D "QT_CORE_LIB" /D "QT_GUI_LIB" /D "QT_MULTIMEDIA_LIB" /D "QT_XML_LIB" /D "QT_SQL_LIB" /D "QT_OPENGL_LIB" /D "QT_NETWORK_LIB" /D "QT_SCRIPT_LIB" /D "QT_QT3SUPPORT_LIB" /D QT3_SUPPORT /D QAXSERVER /D "QT_SVG_LIB" /D "QT_WEBKIT_LIB" /D "QT_XMLPATTERNS_LIB" /D "QT_DECLARATIVE_LIB" /D "QT_PHONON_LIB" /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Release\moc_CSE495_Wind_Turbine_Simulator.cpp GeneratedFiles\Release\moc_qcustomplot.cpp main.cpp qcustomplot.cpp CSE495_Wind_Turbine_Simulator.cpp
+         moc_CSE495_Wind_Turbine_Simulator.cpp
+         moc_qcustomplot.cpp
+         main.cpp
+         qcustomplot.cpp
+         CSE495_Wind_Turbine_Simulator.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Release\testBitirme.res" testBitirme.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Anıl\Documents\GitHub\bitirme\testBitirme\Win32\Release\\CSE495_Wind_Turbine_Simulator.exe" /NOLOGO /LIBPATH:C:\Qt\4.8.0\lib qtmain.lib QtCore4.lib QtGui4.lib QtMultimedia4.lib QtXml4.lib QtSql4.lib QtOpenGL4.lib opengl32.lib glu32.lib QtNetwork4.lib QtScript4.lib Qt3Support4.lib comdlg32.lib QAxServer.lib QtSvg4.lib QtHelp4.lib QtWebKit4.lib QtXmlPatterns4.lib QtTest4.lib QtDeclarative4.lib phonon4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\CSE495_Wind_Turbine_Simulator.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\Anıl\Documents\GitHub\bitirme\testBitirme\Win32\Release\CSE495_Wind_Turbine_Simulator.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Anıl\Documents\GitHub\bitirme\testBitirme\Win32\Release\CSE495_Wind_Turbine_Simulator.lib" /MACHINE:X86 Release\testBitirme.res
+         Release\qrc_testbitirme.obj
+         Release\moc_CSE495_Wind_Turbine_Simulator.obj
+         Release\moc_qcustomplot.obj
+         Release\main.obj
+         Release\qcustomplot.obj
+         Release\CSE495_Wind_Turbine_Simulator.obj
+         testBitirme.vcxproj -> C:\Users\Anıl\Documents\GitHub\bitirme\testBitirme\Win32\Release\CSE495_Wind_Turbine_Simulator.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Anıl\Documents\GitHub\bitirme\testBitirme\Win32\Release\\CSE495_Wind_Turbine_Simulator.exe;#1" /manifest Release\CSE495_Wind_Turbine_Simulator.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\CSE495_Wind_Turbine_Simulator.unsuccessfulbuild".
+         Touching "Release\CSE495_Wind_Turbine_Simulator.lastbuildstate".
+     1>Done Building Project "C:\Users\Anıl\Documents\GitHub\bitirme\testBitirme\testBitirme\testBitirme.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:22.97

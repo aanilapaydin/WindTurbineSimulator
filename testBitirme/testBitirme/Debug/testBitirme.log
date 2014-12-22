@@ -1,5 +1,5 @@
-﻿Build started 21.12.2014 01:38:39.
-     1>Project "C:\Users\Anıl\Documents\Visual Studio 2010\Projects\testBitirme\testBitirme\testBitirme.vcxproj" on node 2 (build target(s)).
+﻿Build started 22.12.2014 06:38:27.
+     1>Project "C:\Users\Anıl\Documents\GitHub\bitirme\testBitirme\testBitirme\testBitirme.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\CSE495_Wind_Turbine_Simulator.unsuccessfulbuild" because "AlwaysCreate" was specified.
        CustomBuild:
@@ -11,22 +11,22 @@
        ResourceCompile:
          All outputs are up-to-date.
        Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Anıl\documents\visual studio 2010\Projects\testBitirme\Win32\Debug\\CSE495_Wind_Turbine_Simulator.exe" /NOLOGO /LIBPATH:C:\Qt\4.8.0\lib qtmaind.lib QtCored4.lib QtGuid4.lib QtMultimediad4.lib QtXmld4.lib QtSqld4.lib QtOpenGLd4.lib opengl32.lib glu32.lib QtNetworkd4.lib QtScriptd4.lib Qt3Supportd4.lib comdlg32.lib QAxServerd.lib QtSvgd4.lib QtHelpd4.lib QtWebKitd4.lib QtXmlPatternsd4.lib QtTestd4.lib QtDeclaratived4.lib phonond4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CSE495_Wind_Turbine_Simulator.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Anıl\documents\visual studio 2010\Projects\testBitirme\Win32\Debug\CSE495_Wind_Turbine_Simulator.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Anıl\documents\visual studio 2010\Projects\testBitirme\Win32\Debug\CSE495_Wind_Turbine_Simulator.lib" /MACHINE:X86 Debug\testBitirme.res
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Anıl\Documents\GitHub\bitirme\testBitirme\Win32\Debug\\CSE495_Wind_Turbine_Simulator.exe" /NOLOGO /LIBPATH:C:\Qt\4.8.0\lib qtmaind.lib QtCored4.lib QtGuid4.lib QtMultimediad4.lib QtXmld4.lib QtSqld4.lib QtOpenGLd4.lib opengl32.lib glu32.lib QtNetworkd4.lib QtScriptd4.lib Qt3Supportd4.lib comdlg32.lib QAxServerd.lib QtSvgd4.lib QtHelpd4.lib QtWebKitd4.lib QtXmlPatternsd4.lib QtTestd4.lib QtDeclaratived4.lib phonond4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CSE495_Wind_Turbine_Simulator.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Anıl\Documents\GitHub\bitirme\testBitirme\Win32\Debug\CSE495_Wind_Turbine_Simulator.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Anıl\Documents\GitHub\bitirme\testBitirme\Win32\Debug\CSE495_Wind_Turbine_Simulator.lib" /MACHINE:X86 Debug\testBitirme.res
          Debug\moc_CSE495_Wind_Turbine_Simulator.obj
          Debug\moc_qcustomplot.obj
          Debug\qrc_testbitirme.obj
          Debug\main.obj
          Debug\qcustomplot.obj
          Debug\CSE495_Wind_Turbine_Simulator.obj
-         LINK : C:\Users\Anıl\documents\visual studio 2010\Projects\testBitirme\Win32\Debug\\CSE495_Wind_Turbine_Simulator.exe not found or not built by the last incremental link; performing full link
-         testBitirme.vcxproj -> C:\Users\Anıl\documents\visual studio 2010\Projects\testBitirme\Win32\Debug\CSE495_Wind_Turbine_Simulator.exe
+         LINK : C:\Users\Anıl\Documents\GitHub\bitirme\testBitirme\Win32\Debug\\CSE495_Wind_Turbine_Simulator.exe not found or not built by the last incremental link; performing full link
+         testBitirme.vcxproj -> C:\Users\Anıl\Documents\GitHub\bitirme\testBitirme\Win32\Debug\CSE495_Wind_Turbine_Simulator.exe
        Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Anıl\documents\visual studio 2010\Projects\testBitirme\Win32\Debug\\CSE495_Wind_Turbine_Simulator.exe;#1" /manifest Debug\CSE495_Wind_Turbine_Simulator.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Anıl\Documents\GitHub\bitirme\testBitirme\Win32\Debug\\CSE495_Wind_Turbine_Simulator.exe;#1" /manifest Debug\CSE495_Wind_Turbine_Simulator.exe.intermediate.manifest
        FinalizeBuildStatus:
          Deleting file "Debug\CSE495_Wind_Turbine_Simulator.unsuccessfulbuild".
          Touching "Debug\CSE495_Wind_Turbine_Simulator.lastbuildstate".
-     1>Done Building Project "C:\Users\Anıl\Documents\Visual Studio 2010\Projects\testBitirme\testBitirme\testBitirme.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\Anıl\Documents\GitHub\bitirme\testBitirme\testBitirme\testBitirme.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:03.93
+Time Elapsed 00:00:06.30

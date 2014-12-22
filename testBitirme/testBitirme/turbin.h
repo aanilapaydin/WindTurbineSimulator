@@ -62,7 +62,7 @@ class Turbin{
 		double n;															//Rotor devir sayýsý dk da				
 		double TA;															//Turbin kanat ivmelenmesi sn'de
 		double timeRes;														//Grafik icin time Resolution burdada gerekli
-
+		double aci;
 };
 
 ////////////////////////////////////////////////////////////////default constructor                      
@@ -71,6 +71,7 @@ Turbin::Turbin(){
 	this->beta = 0;
 	this->Cp = 0;
 	this->TA = 1.00;
+	this->aci = 0;
 }
 /////////////////////////////////////////////////////////////////getters
 Ruzgar* Turbin::getWind(){
@@ -164,26 +165,31 @@ void Turbin::calculateTm(){
 	this->Tm = this->Pm / this->Wm;
 }
 void Turbin::calculateCp(){
-	double param = sin((PI*(lambda-2))/(13));
-	this->Cp = ((0.44-(0.0167*beta))*param)-(0.00184*(lambda-2)*beta);
+	double param = sin(((PI*(lambda-2))/13));
+	this->Cp = (0.44*param);
 }
 void Turbin::controlN(){
-	if(this->lambda < 1/3.0){
+	if(this->lambda < 8.4){
 		n += (60 * TA * timeRes)/ (2 * PI * R); 
 	}
 	else{
 		n -= (60 * TA * timeRes)/ (2 * PI * R); 
 	}
+	
 }
 void Turbin::calculateBeta(){
 		
 	this->calculateVOutput();
+	
 
-	if(Cp  > (16.0/27)){
-		beta-=0.1;
+	if(this->lambda < 8.4){	
+		aci++;
 	}
 	else{
-		beta+=0.1;
+		aci--;
 	}
+	
+	beta = PI * (aci/180);
+
 }
 #endif

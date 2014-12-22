@@ -3,6 +3,7 @@
 
 #include <QTimer>
 #include <QtGui/QMainWindow>
+#include <QtGui>
 #include "ui_testbitirme.h"
 
 
@@ -24,6 +25,8 @@ public:
 	void controlWind();
 	void controlTurbine();
 	void controlMile();
+	void controlJenerator();
+	void writeToDetailedView();
 
 private slots:
     void startButton_click();

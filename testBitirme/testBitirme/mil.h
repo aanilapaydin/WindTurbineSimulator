@@ -24,7 +24,7 @@ class Mil{
 
 //function implementations
 Mil::Mil(){
-	this->nm = 1.00;
+	this->nm = 0.9;
 	this->Pt = 0;
 }
 double Mil::getNm(){
