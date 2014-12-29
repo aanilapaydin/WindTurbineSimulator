@@ -1,4 +1,5 @@
-﻿#include <QMessageBox>
+﻿//cse495_wind_turbine_simulator.cpp
+#include <QMessageBox>
 #include "CSE495_Wind_Turbine_Simulator.h"
 #include "jenerator.h"
 #include <string>
@@ -7,7 +8,7 @@
 
 using namespace std;
 
-//Turbine tanımlama************************************
+//Turbin tanımlama************************************
 Ruzgar tmp;
 Turbin m_turbine;
 Mil m_mile;
@@ -49,7 +50,7 @@ CSE495_Wind_Turbine_Simulator::~CSE495_Wind_Turbine_Simulator()
 void CSE495_Wind_Turbine_Simulator::initialization(){
 	
 	m_turbine.setWind(&tmp);
-	//Burda ekranın ilk hali olcak
+	//Burda ekranın ilk hali
 	m_turbine.getWind()->setVBase(12);
 	//Screen init
 	this->ui.vBaseEdit->setText(doubleToQStr(m_turbine.getWind()->getVBase()));
@@ -73,7 +74,7 @@ void CSE495_Wind_Turbine_Simulator::initialization(){
 	this->ui.startButton->setEnabled(true);
 	this->ui.saveButton->setEnabled(false);
 }
-//Burda turbin değerleri yenilenip basılcak
+//Burda turbin değerleri yenilenip
 void CSE495_Wind_Turbine_Simulator::refreshWindScreen(){
 
 	this->ui.vBaseEdit->setText(doubleToQStr(m_turbine.getWind()->getVBase()));

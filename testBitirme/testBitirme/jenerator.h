@@ -1,3 +1,4 @@
+//jenerator.h
 #ifndef JENERATOR_H
 #define JENERATOR_H
 
@@ -16,6 +17,7 @@ class Jenerator{
 		void calculateIV(double beta);
 		void setPe(const long double newPe);
 		void calculatePe(const double Pt);	
+		
 		double Ia;
 		double Ib;
 		double Ic;

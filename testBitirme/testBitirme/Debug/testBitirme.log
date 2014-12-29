@@ -1,4 +1,4 @@
-﻿Build started 22.12.2014 06:38:27.
+﻿Build started 26.12.2014 11:36:20.
      1>Project "C:\Users\Anıl\Documents\GitHub\bitirme\testBitirme\testBitirme\testBitirme.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\CSE495_Wind_Turbine_Simulator.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -29,4 +29,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:06.30
+Time Elapsed 00:00:07.16

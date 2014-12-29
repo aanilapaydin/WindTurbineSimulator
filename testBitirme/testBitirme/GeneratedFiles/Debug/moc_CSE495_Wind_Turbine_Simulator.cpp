@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'CSE495_Wind_Turbine_Simulator.h'
 **
-** Created: Mon 22. Dec 06:16:11 2014
+** Created: Mon 22. Dec 22:27:44 2014
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.0)
 **
 ** WARNING! All changes made in this file will be lost!
