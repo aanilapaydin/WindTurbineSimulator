@@ -8,6 +8,6 @@ algorithm.The turbine type in the program is a modern type turbine with horizont
 is a PMSG generator.
 
 Requirements for development
-Qt 4.8 all in one
-QCustomPlot libraries
+---Qt 4.8 all in one
+---QCustomPlot libraries
 
