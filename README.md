@@ -7,7 +7,7 @@ the graphs in the program are done with QCumstomPlot libraries.The Algorithm in 
 algorithm.The turbine type in the program is a modern type turbine with horizontal axis.The genertor type in the program
 is a PMSG generator.
 
-Requirements for development
+Requirements for development                                                           
 ---Qt 4.8 all in one
 ---QCustomPlot libraries
 
